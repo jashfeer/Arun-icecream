@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+.head-logo{
+    height: 50%;
+    width: 50%;
+   
+}
+.nav-link{
+    margin-right: 1rem;
+    font-family: Helvetica;
+    color: #a6a8abac;
+    font-size: 17px;
+    font-weight:600;
+}
+.dropdown-item{
+    font-family: Helvetica;
+    color: #a6a8abac;
+    font-size: 17px;
+    font-weight:600;
+}
+.icon {
+    color: #a6a8abac; 
+    padding-top: 4px;
+}
+.icon a{
+    border-radius: 35%;
+    height: 35px;
+    width: 35px;
+}
+.icon a:nth-of-type(1):hover{
+    background-color: rgba(61, 67, 241, 0.567);
+}
+.icon a:nth-of-type(2):hover{
+    background-color: rgba(238, 54, 54, 0.5);
+}
+.heading{
+    font-family: Helvetica;
+}
+.product-image{
+    height: 15em;
+    padding: 2em;
+
+}
+.card{
+    margin-top: 1em;
+    height: 28em;
+}
+label.error{
+    font-weight: 700;
+    display: block;
+    color: rgb(236, 17, 17);
+    font-size: 14px;
+    }
+#bt{
+    background: red;
+    border: rgb(236, 17, 17);
+}
